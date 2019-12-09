@@ -8,7 +8,7 @@ Feature: Shopping cart
     Change the quantity of second dress to ​‘2’
 ​    Remove the ​first dress from the cart
     Click on ‘Proceed to checkout
-
+@smoke
 Scenario: Shopping dresses without signing in
     Given I access the homepage of the application 
     Then I search for "black dress" product
